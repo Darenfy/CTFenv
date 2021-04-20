@@ -10,6 +10,10 @@ How to construct a valid CTFer tool kit?
 ### Forensics  
 - [Binwalk](https://github.com/ReFirmLabs/binwalk)
 
+
+### Stego  
+- [zsteg](https://github.com/zed-0xff/zsteg)  
+
 ---
 ## Symbolic Execution  
 - ### angr
