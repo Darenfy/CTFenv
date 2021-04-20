@@ -7,6 +7,9 @@ How to construct a valid CTFer tool kit?
 - [angstromctf](angstromctf.com)
 
 ---
+### Web  
+- [burpsuite Mac安装](https://www.sqlsec.com/2019/11/macbp.html#toc-heading-1)
+
 ### Forensics  
 - [Binwalk](https://github.com/ReFirmLabs/binwalk)  
 - [Wireshark](https://www.wireshark.org/download.html)  
