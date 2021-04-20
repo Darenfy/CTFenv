@@ -2,9 +2,23 @@
 How to become a qualified CTFer?  
 How to construct a valid CTFer tool kit?
 
-### 推荐的入门 CTF 网站
-- [picoctf](https://picoctf.org/)  
-- [angstromctf](angstromctf.com)
+### 推荐 CTF 学习资料  
+- [CTF_ALL_IN_ONE](https://firmianay.gitbooks.io/ctf-all-in-one/content/)
+- [CTF-wiki](https://ctf-wiki.org/en/)
+- [CTFs - writeups](https://github.com/ctfs?language=python)
+
+### 推荐 CTF 网站
+- 平台
+  - [CTFTime](https://ctftime.org/)
+- 入门
+  - [picoctf](https://picoctf.org/)  
+  - [angstromctf](https://angstromctf.com/)  
+  - [ichunqiu](https://www.ichunqiu.com/competition)
+  - [攻防世界](https://adworld.xctf.org.cn/login)
+  - [Web - wechall](https://www.wechall.net/challs)
+  - [Pwn - Pwnable.kr](http://pwnable.kr/play.php)
+  - [Crypto - Cryptohack](https://cryptohack.org/)
+  - [Exploit - Exp EDU](https://exploit.education/nebula/)
 
 ---
 ### Web  
