@@ -6,7 +6,11 @@ How to construct a valid CTFer tool kit?
 - [picoctf](https://picoctf.org/)  
 - [angstromctf](angstromctf.com)
 
+---
+### Forensics  
+- [Binwalk](https://github.com/ReFirmLabs/binwalk)
 
+---
 ## Symbolic Execution  
 - ### angr
   - [Angr 学习简介](https://github.com/Darenfy/CTFenv/blob/main/angr/Angr.md)
