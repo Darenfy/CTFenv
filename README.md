@@ -8,7 +8,9 @@ How to construct a valid CTFer tool kit?
 
 ---
 ### Forensics  
-- [Binwalk](https://github.com/ReFirmLabs/binwalk)
+- [Binwalk](https://github.com/ReFirmLabs/binwalk)  
+- [Wireshark](https://www.wireshark.org/download.html)  
+
 
 
 ### Stego  
