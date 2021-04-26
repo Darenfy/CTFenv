@@ -43,18 +43,18 @@ SimState 表示程序的状态，包括内存、寄存器等
 #### Storage  
 **SimMemView**  
 访问内存便捷接口
-- state.mem.deref 解索引  
-- state.mem.types 为数据指定数据类型  
-- state.mem.resolved/.concrete 抽取结构化数据  
+- ``state.mem.deref`` 解索引  
+- ``state.mem.types`` 为数据指定数据类型  
+- ``state.mem.resolved/.concrete`` 抽取结构化数据  
 
 **SimFile**  
 在硬盘中构建文件  
 参数：name, content, size
 
 **Memory Mixins**
-- find(addr, data, max_search, **kwargs)
-- load(addr, **kwargs)
-- store(addr, data, **kwargs)
+- ``find(addr, data, max_search, **kwargs)``
+- ``load(addr, **kwargs)``
+- ``store(addr, data, **kwargs)``
 
 #### Simulation Manager
 主要功能是处理 State，并根据需要进行 step forward, filter, merge, move around
@@ -69,15 +69,15 @@ Stashes 可以被作为属性获取到（比如 ``.active``）
 
 最重要的方法是 ``step`` ``explore`` ``use_technique``
 
-**explore**
-explore(stash='active', n=None, find=None, avoid=None, find_stash='found',avoid_stash='avoid', cfg=None, num_find=1, **kwargs)
+**explore**  
+``explore(stash='active', n=None, find=None, avoid=None, find_stash='found',avoid_stash='avoid', cfg=None, num_find=1, **kwargs)``
 
 explore 主要用来探索路径的可能性
 
-查找 find 条件 存入 find_stash
-避免 avoid 条件 存入 avoid_stash
+查找 ``find`` 条件 -> 存入 ``find_stash``  
+避免 ``avoid`` 条件 -> 存入 ``avoid_stash``
 
-find 和 avoid 参数可能是：
+``find`` 和 ``avoid`` 参数可能是：
 - 地址
 - 地址集合或列表
 - 拥有状态的函数，并返回是否匹配
@@ -90,7 +90,7 @@ find 和 avoid 参数可能是：
 #### Analysis  
 程序上的各种分析  
 主要类
-- ``angr.analysis.analysis.Analysis``
+- ``angr.analysis.analysis.Analysis``  
     描述程序分析  
 - ``angr.analysis.forward_analysis.forward_analysis.ForwardAnalysis``  
     前端分析框架，可以为多种分析提供基础，包括 CFG 分析， VFG 分析，DDG 分析等  
